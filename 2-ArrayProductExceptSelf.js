@@ -6,8 +6,8 @@ for (let i = 0; i < input.length; i++) {
   let clonedArray = [...input];
   delete clonedArray[i];
 
-  clonedArray.forEach(num => {
-     result *= num;
+  clonedArray.forEach((num) => {
+    result *= num;
   });
 
   output.push(result);
